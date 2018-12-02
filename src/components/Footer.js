@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">Design by: <a href="https://html5up.net">HTML5 UP</a>. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
+        <p className="copyright">Design by: <a href="https://html5up.net">HTML5 UP</a>. Brought to you by: <a href="https://cosmicfisherman.tech">Cosmic Fisherman</a>.</p>
     </footer>
 )
 
