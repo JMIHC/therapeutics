@@ -43,7 +43,7 @@
     margin-top: 3.5rem;
 
     &:before {
-      content: '';
+      // content: '';
       display: block;
       position: absolute;
       top: calc(-3.5rem - 1px);
@@ -320,7 +320,7 @@
       margin-top: 3.5rem;
 
       &:before {
-        content: '';
+        // content: '';
         display: block;
         position: absolute;
         top: calc(-3.5rem - 1px);
@@ -354,11 +354,11 @@
     }
 
     .content {
-      // border-style: solid;
-      // border-color: _palette(border);
-      // border-top-width: _size(border-width);
-      // border-bottom-width: _size(border-width);
-      // max-width: 100%;
+      border-style: solid;
+      border-color: _palette(border);
+      border-top-width: _size(border-width);
+      border-bottom-width: _size(border-width);
+      max-width: 100%;
 
       .inner {
         @include vendor(
