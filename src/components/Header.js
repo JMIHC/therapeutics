@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="content">
+    <div className="content" style={{ border: 0 }}>
       <div className="inner">
         <h1>Cornyn Therapeutics, LTD</h1>
       </div>

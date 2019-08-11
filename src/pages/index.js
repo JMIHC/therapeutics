@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import YouTube from 'react-youtube'
+import MediaQuery from 'react-responsive'
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -126,17 +127,22 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div className="video-background">
-            <div className="video-foreground">
-              <YouTube
-                videoId="ikh7D-nYNJs"
-                opts={videoOptions}
-                className="video-iframe"
-                onReady={this._onReady}
-                onEnd={this._onEnd}
-              />
+          <MediaQuery query="(min-device-width: 410px)">
+            <div className="video-background">
+              <div className="video-foreground">
+                <YouTube
+                  videoId="ikh7D-nYNJs"
+                  opts={videoOptions}
+                  className="video-iframe"
+                  onReady={this._onReady}
+                  onEnd={this._onEnd}
+                />
+              </div>
             </div>
-          </div>
+          </MediaQuery>
+          <MediaQuery query="(max-device-width: 410px)">
+            <div id="bg"></div>
+          </MediaQuery>
         </div>
       </Layout>
     )
