@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic03 from '../images/pic03.jpg'
-
 class Main extends React.Component {
   render() {
     let close = (
@@ -28,63 +26,31 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Charles Cornyn has been doing therapeutic massage and energy healing
+            for over 25 years.
           </p>
-          {close}
-        </article>
-
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Schedule</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a href="#" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-          </ul>
+          <p>
+            He has had his own practice in Northfield since 2007, specializing
+            in the Neuromuscular Technique and Craniosacral Therapy for pain
+            relief and wellness. Charles is a Licensed Massage Therapist (LMT)
+            and studied at the Chicago School of Massage Therapy.
+          </p>
+          <p>
+            Charles uses a wide variety of techniques and can tailor sessions
+            for targeted therapeutic effect, relaxation, or a blend of both. He
+            waits for inspiration to ensure he applies the appropriate
+            technique, holding a neutral and attentive space without
+            preconceived notions, which allows him to be open to whatever he
+            finds.
+          </p>
+          <p>
+            Charles has had effective results with tight muscles and ligaments,
+            chronic muscle spasms, carpel tunnel syndrome, hip and leg pain,
+            among other issues. His focus on overall well-being helps to ensure
+            that whatever your source of pain, you will leave his office feeling
+            refreshed.
+          </p>
           {close}
         </article>
       </div>

@@ -21,12 +21,7 @@ const Header = props => (
           </a>
         </li>
         <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
+          <a href="https://www.schedulicity.com/scheduling/CTLQU8">
             Schedule a session
           </a>
         </li>
