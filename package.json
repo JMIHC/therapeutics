@@ -11,12 +11,12 @@
     "gatsby-plugin-plausible": "^0.0.7",
     "gatsby-plugin-react-helmet": "^5.17",
     "gatsby-plugin-sass": "^5.17.0",
-    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-responsive": "^9.0.0-beta.10",
-    "react-youtube": "^9.0.2"
+    "react-youtube": "^9.0.2",
+    "sass": "^1.52.3"
   },
   "keywords": [
     "gatsby"
